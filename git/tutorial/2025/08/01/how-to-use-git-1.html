@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to use Git? - Part 1 - Basics | Henry Godman’s blog</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="How to use Git? - Part 1 - Basics" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hey, this is Henry God man speaking, (well, more writing!), I’ll learn you how to use the basics of Git." />
+<meta property="og:description" content="Hey, this is Henry God man speaking, (well, more writing!), I’ll learn you how to use the basics of Git." />
+<meta property="og:site_name" content="Henry Godman’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-01T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to use Git? - Part 1 - Basics" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-01T00:00:00+00:00","datePublished":"2025-08-01T00:00:00+00:00","description":"Hey, this is Henry God man speaking, (well, more writing!), I’ll learn you how to use the basics of Git.","headline":"How to use Git? - Part 1 - Basics","mainEntityOfPage":{"@type":"WebPage","@id":"/git/tutorial/2025/08/01/how-to-use-git-1.html"},"url":"/git/tutorial/2025/08/01/how-to-use-git-1.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Henry Godman&apos;s blog" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Henry Godman&#39;s blog</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/about/">About</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" id="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to use Git? - Part 1 - Basics</h1>
+    <div class="post-meta"><span class="meta-label">Published:</span>
+      <time class="dt-published" datetime="2025-08-01T00:00:00+00:00" itemprop="datePublished">
+        Aug 1, 2025
+      </time><span class="bullet-divider">•</span>
+        <span class="meta-label">Updated:</span>
+        <time class="dt-modified" datetime="2025-07-31T00:00:00+00:00" itemprop="dateModified">
+          Jul 31, 2025
+        </time>
+      <div class="post-authors">
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name"><img data-author="Henry Godman" class="github-author" alt="Henry Godman GitHub profile picture" width="25" />  Henry Godman</span>
+          </span>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content e-content" id="content" itemprop="articleBody">
+    <p>Hey, this is Henry God man speaking, (well, more writing!), I’ll learn you how to use the basics of Git.</p>
+
+<h2 id="first-part---setting-up">First part - setting up</h2>
+<p>For now, we wll use GitHub with Codespaces, this way it already sets up Git so you don’t have to worry about that.</p>
+
+<ol>
+  <li>Create a GitHub repository, name it what you want.</li>
+  <li>Make sure to initialize with a README.</li>
+  <li>Click the green “code” button, go to “Codespaces” tab and press “Create Codespaces on main”</li>
+</ol>
+
+<h2 id="second-part-commit--pushing">Second part, commit &amp; pushing</h2>
+<p>Right now for the challenge we are gonna use the Terminal! Not to make your changes, but o commi and push.</p>
+
+<ol>
+  <li>Do some changes (create files, edit files, rename files, move files, delete files, etc…)</li>
+  <li>Focus on the terminal, this is a Linux Terminal, Codespaces usually run Ubuntu.</li>
+  <li>In the terminal, write <code class="language-plaintext highlighter-rouge">git add .</code> you should see no output.</li>
+  <li>After that, write <code class="language-plaintext highlighter-rouge">git commit -m "your commit msg"</code> (<strong>Note</strong>: Your commit message can be whtver you want.)
+You should see an output like:
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[main 1c0ed5e] update pages
+ 3 files changed, 12 insertions(+), 13 deletions(-)
+ delete mode 100644 _posts/2025-7-30-test.md
+ create mode 100644 _posts/2025-7-31-welcome.md
+</code></pre></div>    </div>
+    <p>That’s good, it means it works.</p>
+  </li>
+  <li>If you go back to your GitHub repo, you can see that your commit is not here! But don’t worry you just need to push it by writing <code class="language-plaintext highlighter-rouge">git push</code></li>
+  <li>And now if you go back, you can see that your commit was successfully pushed!</li>
+</ol>
+
+<p>And that’s all for now! Next were gonna learn how to set up Git in another environement like MSYS2, Git Bash or Termux.</p>
+
+  </div>
+
+  <div align="center">
+    <a href="#post"><button class="go-to-top">Go to top</button></a></div>
+
+
+  <a class="u-url" href="/git/tutorial/2025/08/01/how-to-use-git-1.html" hidden></a>
+</article>
+<script src="/assets/js/post.js"></script>
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Henry Godman</li>
+          <li><a class="u-email" href="mailto:hgfghighif@gmail.com">hgfghighif@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>Henry Godman&#39;s blog, based on Minima, powered by Jekyll.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

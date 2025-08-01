@@ -1,2 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-01T12:16:07+00:00</updated><id>/feed.xml</id><title type="html">Henry Godman’s blog</title><subtitle>Henry Godman&apos;s blog, based on Minima, powered by Jekyll.
-</subtitle><author><name>Henry Godman</name><email>hgfghighif@gmail.com</email></author><entry><title type="html">Welcome to my blog!</title><link href="/other/2025/07/31/welcome.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2025-07-31T00:00:00+00:00</published><updated>2025-07-31T00:00:00+00:00</updated><id>/other/2025/07/31/welcome</id><content type="html" xml:base="/other/2025/07/31/welcome.html"><![CDATA[<p>Hello! This blog is a blog based on Minima. In here I’ll post updates, program releases, and other stuff.</p>]]></content><author><name>[&quot;Henry Godman&quot;]</name></author><category term="other" /><summary type="html"><![CDATA[Hello! This blog is a blog based on Minima. In here I’ll post updates, program releases, and other stuff.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-01T12:37:18+00:00</updated><id>/feed.xml</id><title type="html">Henry Godman’s blog</title><subtitle>Henry Godman&apos;s blog, based on Minima, powered by Jekyll.
+</subtitle><author><name>Henry Godman</name><email>hgfghighif@gmail.com</email></author><entry><title type="html">How to use Git? - Part 1 - Basics</title><link href="/git/tutorial/2025/08/01/how-to-use-git-1.html" rel="alternate" type="text/html" title="How to use Git? - Part 1 - Basics" /><published>2025-08-01T00:00:00+00:00</published><updated>2025-08-01T00:00:00+00:00</updated><id>/git/tutorial/2025/08/01/how-to-use-git-1</id><content type="html" xml:base="/git/tutorial/2025/08/01/how-to-use-git-1.html"><![CDATA[<p>Hey, this is Henry God man speaking, (well, more writing!), I’ll learn you how to use the basics of Git.</p>
+
+<h2 id="first-part---setting-up">First part - setting up</h2>
+<p>For now, we wll use GitHub with Codespaces, this way it already sets up Git so you don’t have to worry about that.</p>
+
+<ol>
+  <li>Create a GitHub repository, name it what you want.</li>
+  <li>Make sure to initialize with a README.</li>
+  <li>Click the green “code” button, go to “Codespaces” tab and press “Create Codespaces on main”</li>
+</ol>
+
+<h2 id="second-part-commit--pushing">Second part, commit &amp; pushing</h2>
+<p>Right now for the challenge we are gonna use the Terminal! Not to make your changes, but o commi and push.</p>
+
+<ol>
+  <li>Do some changes (create files, edit files, rename files, move files, delete files, etc…)</li>
+  <li>Focus on the terminal, this is a Linux Terminal, Codespaces usually run Ubuntu.</li>
+  <li>In the terminal, write <code class="language-plaintext highlighter-rouge">git add .</code> you should see no output.</li>
+  <li>After that, write <code class="language-plaintext highlighter-rouge">git commit -m "your commit msg"</code> (<strong>Note</strong>: Your commit message can be whtver you want.)
+You should see an output like:
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[main 1c0ed5e] update pages
+ 3 files changed, 12 insertions(+), 13 deletions(-)
+ delete mode 100644 _posts/2025-7-30-test.md
+ create mode 100644 _posts/2025-7-31-welcome.md
+</code></pre></div>    </div>
+    <p>That’s good, it means it works.</p>
+  </li>
+  <li>If you go back to your GitHub repo, you can see that your commit is not here! But don’t worry you just need to push it by writing <code class="language-plaintext highlighter-rouge">git push</code></li>
+  <li>And now if you go back, you can see that your commit was successfully pushed!</li>
+</ol>
+
+<p>And that’s all for now! Next were gonna learn how to set up Git in another environement like MSYS2, Git Bash or Termux.</p>]]></content><author><name>[&quot;Henry Godman&quot;]</name></author><category term="git" /><category term="tutorial" /><summary type="html"><![CDATA[Hey, this is Henry God man speaking, (well, more writing!), I’ll learn you how to use the basics of Git.]]></summary></entry><entry><title type="html">Welcome to my blog!</title><link href="/other/2025/07/31/welcome.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2025-07-31T00:00:00+00:00</published><updated>2025-07-31T00:00:00+00:00</updated><id>/other/2025/07/31/welcome</id><content type="html" xml:base="/other/2025/07/31/welcome.html"><![CDATA[<p>Hello! This blog is a blog based on Minima. In here I’ll post updates, program releases, and other stuff.</p>]]></content><author><name>[&quot;Henry Godman&quot;]</name></author><category term="other" /><summary type="html"><![CDATA[Hello! This blog is a blog based on Minima. In here I’ll post updates, program releases, and other stuff.]]></summary></entry></feed>
