@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This blog is based on Minima, you can check out the source code here: https://github.com/hgfghighif/blog.hgfghighif.github.io/tree/master.
 
-You can find the source code for Minima at GitHub:
+You can find the source code for the original Minima at GitHub:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
 
