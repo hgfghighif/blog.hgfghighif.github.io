@@ -40,6 +40,15 @@ layout: base
   <div align="center">
     <a href="#post"><button class="go-to-top">Go to top</button></a></div>
 
+    <ul class="previous-next">
+      {% if page.previous %}
+        <li><a href="{{ page.previous.url | relative_url }}">Previous Post</a></li>
+      {% endif %}
+      {% if page.next %}
+        <li><a href="{{ page.next.url | relative_url }}">Next Post</a></li>
+      {% endif %}
+    </ul>
+
 
   {% if jekyll.environment == 'production' -%}
     {% if page.comments == false -%}

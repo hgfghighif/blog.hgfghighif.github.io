@@ -433,3 +433,17 @@
   width: 75px;
   border: none;
 }
+
+.previous-next {
+  li {
+    a {
+      color: $dm-brand-color-dark;
+      text-decoration: none;
+    }
+    list-style-type: none;
+    padding: 3px;
+  }
+
+  display: flex;
+  justify-content: center;
+}

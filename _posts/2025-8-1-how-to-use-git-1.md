@@ -4,10 +4,10 @@ title: "How to use Git? - Part 1 - Basics"
 categories: git tutorial
 author:
 - Henry Godman
-modified_date: 2025-7-31
+modified_date: 2025-8-2
 ---
 
-Hey, this is Henry God man speaking, (well, more writing!), I'll learn you how to use the basics of Git.
+Hey, this is Henry Godman speaking, (well, more writing!), I'll learn you how to use the basics of Git.
 
 ## First part - setting up
 For now, we wll use GitHub with Codespaces, this way it already sets up Git so you don't have to worry about that.
@@ -17,12 +17,12 @@ For now, we wll use GitHub with Codespaces, this way it already sets up Git so y
 3. Click the green "code" button, go to "Codespaces" tab and press "Create Codespaces on main"
 
 ## Second part, commit & pushing
-Right now for the challenge we are gonna use the Terminal! Not to make your changes, but o commi and push.
+Right now for the challenge we are gonna use the Terminal! Not to make your changes, but to commit and push.
 
 1. Do some changes (create files, edit files, rename files, move files, delete files, etc...)
 2. Focus on the terminal, this is a Linux Terminal, Codespaces usually run Ubuntu.
 3. In the terminal, write `git add .` you should see no output.
-4. After that, write ``git commit -m "your commit msg"`` (**Note**: Your commit message can be whtver you want.)
+4. After that, write ``git commit -m "your commit msg"`` (**Note**: Your commit message can be whatver you want.)
 You should see an output like:
 ```text
 [main 1c0ed5e] update pages
