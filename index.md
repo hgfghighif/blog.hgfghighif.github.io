@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Hello! This is Henry Godman's blog! Please check the [/about](About) page for more info. In the meantime you can read my posts.
