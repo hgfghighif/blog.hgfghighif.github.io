@@ -869,4 +869,30 @@ table td {
   border: none;
 }
 
+.previous-next {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.previous-next li {
+  list-style-type: none;
+  padding: 3px;
+}
+.previous-next li a {
+  color: rgb(43.35, 43.35, 43.35);
+  text-decoration: none;
+}
+.previous-next li span {
+  color: #aaa;
+  cursor: not-allowed;
+}
+.previous-next li.no-previous span, .previous-next li.no-next span {
+  color: gray;
+}
+.previous-next li * {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
