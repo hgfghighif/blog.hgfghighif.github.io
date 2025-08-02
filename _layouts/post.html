@@ -41,12 +41,22 @@ layout: base
     <a href="#post"><button class="go-to-top">Go to top</button></a></div>
 
     <ul class="previous-next">
-      {% if page.previous %}
-        <li><a href="{{ page.previous.url | relative_url }}">Previous Post</a></li>
-      {% endif %}
-      {% if page.next %}
-        <li><a href="{{ page.next.url | relative_url }}">Next Post</a></li>
-      {% endif %}
+      <li class="{% if page.previous %}has-previous{% else %}no-previous{% endif %}">
+        {% if page.previous %}
+          <a href="{{ page.previous.url | relative_url }}">Previous Post</a>
+        {% else %}
+          <span>Previous Post</span>
+        {% endif %}
+      </li>
+
+      <li class="{% if page.next %}has-next{% else %}no-next{% endif %}">
+        {% if page.next %}
+          <a href="{{ page.next.url | relative_url }}">Next Post</a>
+        {% else %}
+          <span>Next Post</span>
+        {% endif %}
+      </li>
+
     </ul>
 
 
